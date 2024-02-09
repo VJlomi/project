@@ -388,4 +388,15 @@ footer {
     }
     #check:checked ~ ul { left: 0; }
 }
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content .box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
     
