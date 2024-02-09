@@ -346,7 +346,7 @@ textarea {
 @media (max-width: 768px) {
     /* CUSTOMER REVIEW */
     .container {
-        grid-template-columns: repeat(auto-fit, minmax(225px, 1fr)); /* Adjusting column width for smaller screens */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusting column width for smaller screens */
         gap: 4rem; /* Adjusting gap for smaller screens */
     }
 
