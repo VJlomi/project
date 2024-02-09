@@ -208,6 +208,19 @@ body {
       grid-template-columns: repeat(1, 1fr);
     }
   }
+  @media screen and (max-width: 768px) {
+    .aboutIMG img {
+        width: 370px; /* Adjust width for smaller screens */
+        margin-left: 20%; /* Adjust margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutIMG img {
+        width: 280px; /* Further adjust width for even smaller screens */
+        margin-left: 18%; /* Further adjust margin for even smaller screens */
+    }
+}
 
 .copyright {
     display: flex;
