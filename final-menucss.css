@@ -202,6 +202,7 @@ body {
     left: 50%;
     height: 20px;
 
+    font-size: 1.4vw;
     font-weight: bold;
     outline: none;
     border: 1px solid black;
